@@ -2,7 +2,7 @@
 
 arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 n = len(arr)
-max = 0
+max = arr[0]
 
 for i in range(n):
     sum = 0
