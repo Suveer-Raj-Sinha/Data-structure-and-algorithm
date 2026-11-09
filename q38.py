@@ -2,5 +2,15 @@
 
 s1 = "listen"
 s2 = "silent"
+Anagram = True
 
-f
+if len(s1) != len(s2):
+    print("Not Anagram")
+else:
+    for i in s1:
+        if i not in s2:
+            Anagram = False
+        else:
+            Anagram = True
+
+print("Anagram" if Anagram else "Not Anagram")
