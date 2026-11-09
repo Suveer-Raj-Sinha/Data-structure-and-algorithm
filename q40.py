@@ -2,7 +2,7 @@
 
 s = "programming"
 chars = list(s)
-j = len(chars) - 1
+j = len(chars)-1
 
 for i in range(len(chars)):
     if i < j:
@@ -10,4 +10,4 @@ for i in range(len(chars)):
         j -= 1
 
 s = "".join(chars)
-print(s)  # Output: gnimmargorp
+print(s)
