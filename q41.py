@@ -6,9 +6,7 @@ right = len(s)- 1
 is_palindrome = True
 
 while right > left:
-    if s[left] == s[right]:
-        is_palindrome = True
-    else:
+    if s[left] != s[right]:
         is_palindrome = False
         break
     left +=  1
